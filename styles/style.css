@@ -122,6 +122,10 @@ body {
   opacity: 1;
 }
 
+.dot:active span {
+  transform: scale(0.9);
+}
+
 #radio-1:checked~.images-wrap .image {
   transform: translateX(0);
 }
